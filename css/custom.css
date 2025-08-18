@@ -399,7 +399,9 @@ section.skillSection {
     margin-top: 0;
 }
 
-
+.ex-content h5 a{
+     color: #fec110;
+}
 
 .abtCard h3{
     font-size: 45px;
@@ -410,4 +412,52 @@ section.skillSection {
 .abtCard__row > div{
     padding-inline: 5%;
     color: rgba(15, 23, 42, 0.7);
+}
+
+
+.projectCard {
+    position: relative;
+    overflow: hidden;
+}
+.projectCard__fig{
+    margin-bottom: 0;
+}
+.projectCard__details {
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    /* background-color: rgba(254, 193, 16, 0.8); */
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* opacity: 0;
+    visibility: hidden; */
+    transition: all 0.5s;
+    transform: translateY(110%);
+
+}
+
+.projectCard:hover .projectCard__details {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s;
+    transform: translateY(0%);
+}
+.projectCard a{
+    color: #fff;
+}
+
+
+.projectCard__details .title{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.stack{
+    font-size: 12px;
+    color: #f0ba1d;
 }
