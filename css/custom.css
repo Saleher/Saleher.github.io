@@ -461,3 +461,25 @@ section.skillSection {
     font-size: 12px;
     color: #f0ba1d;
 }
+
+
+@media screen and (max-width: 767.5px) {
+    .btn_default, .btn_border{
+            padding: 10px 25px;
+            font-size: 14px;
+    }
+    .title1{
+        font-size: 35px;
+    }
+    .subtitle1,
+    .subTitle{
+        font-size: 18px;
+    }
+    .mainTitle{
+        font-size: 25px;
+    }
+    .abtCard__row {
+        flex-direction: column;
+    }
+    
+}
