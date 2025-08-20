@@ -5,7 +5,9 @@
     --titleColor : #022144;
     --textColor: #666;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body{
     background-color: #fff;
     /* background-image: url(../images/body-bg.jpg); */
@@ -234,6 +236,7 @@ section.skillSection {
     font-size: 20px;
     margin-right: -10px;
     line-height: 22px;
+    display: none;
 }
 
 .skillCard_title{
