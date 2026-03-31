@@ -425,6 +425,17 @@ section.skillSection {
 .projectCard__fig{
     margin-bottom: 0;
 }
+
+.projectCard__fig2{
+    background-size: 100%;
+    transition: all 5s;
+    min-height: 320px;
+}
+
+.projectCard:hover .projectCard__fig2{
+    background-position: bottom;
+}
+
 .projectCard__details {
     position: absolute;
     bottom: 0;
